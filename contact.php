@@ -9,7 +9,7 @@ $subject = S_REQUEST['Message'];
 if (empty($fname) || empty($lname) || empty($subject)) {
 echo('Please fill all the fields');
 }else {
-  $to ="traidevindia@gmail.com"; 	 
+  $to ="piyushtechs1@gmail.com"; 	 
   $headers = "Form : $fname \r\n";	
   $headers .= "Reply-To : $lname \r\n"; 	
   $run = mail($to,$fname,$lname,$subject,$headers); 
